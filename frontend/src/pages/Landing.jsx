@@ -123,7 +123,7 @@ export default function Landing() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
             <div className="w-20 h-9 rounded-lg flex items-center justify-center text-white font-display font-bold">
-              <img src="/public/logo2.jpeg" alt="" />
+              <img src="/logo2.jpeg" alt="" />
             </div>
             <div>
               <p className="font-display font-semibold leading-tight text-xl sm:text-base">Hindustan Besan Mill</p>
