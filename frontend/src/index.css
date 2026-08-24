@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply font-body bg-wheat-50 text-ink-900 antialiased;
+}
+
+/* Print styles: only the report content should print */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-report, #printable-report * {
+    visibility: visible;
+  }
+  #printable-report {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+
+@keyframes machine-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-machine-scroll {
+  animation: machine-scroll 20s linear infinite;
+}
