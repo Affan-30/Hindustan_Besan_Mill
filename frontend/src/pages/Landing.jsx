@@ -37,7 +37,7 @@ const BRANDS = [
     productHindi: "चना बेसन",
     madeFrom: "Made from 100% Pure Chana Dal",
     color: INDIA_GREEN,
-    image: "/public/brands/shuddhswastik.png",
+    image: "/brands/shuddhswastik.png",
   },
   {
     name: "SuvarnaBharat",
@@ -47,7 +47,7 @@ const BRANDS = [
     productHindi: "वटाणा पीठ",
     madeFrom: "Made from Premium Quality Watana Dal",
     color: NAVY,
-    image: "/public/brands/suvarnabharat.png",
+    image: "/brands/suvarnabharat.png",
   },
 ];
 
@@ -84,11 +84,11 @@ const FOUNDERS = [
 // "/machines/roaster.jpg") once you add files to /public/machines/, and the
 // photo will show in place of the icon automatically.
 const MACHINES = [
-  { label: "Destoner", icon: Cog, image: "/public/machines/destoner.jpg" },
-  { label: "Hammer", icon: Factory, image: "/public/machines/hammer.jpg" },
-  { label: "Pin Machine", icon: Wheat, image: "/public/machines/pinmachine.jpg" },
-  { label: "Main Grinding Unit", icon: Cog, image: "/public/machines/pin2.jpg" },
-  { label: "Centrifugal : Sieving & Grading", icon: PackageCheck, image: "/public/machines/centrifugal.jpg" },
+  { label: "Destoner", icon: Cog, image: "/machines/destoner.jpg" },
+  { label: "Hammer", icon: Factory, image: "/machines/hammer.jpg" },
+  { label: "Pin Machine", icon: Wheat, image: "/machines/pinmachine.jpg" },
+  { label: "Main Grinding Unit", icon: Cog, image: "/machines/pin2.jpg" },
+  { label: "Centrifugal : Sieving & Grading", icon: PackageCheck, image: "/machines/centrifugal.jpg" },
 //   { label: "Quality Testing Lab", icon: ShieldCheck, image: null },
 ];
 
